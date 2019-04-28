@@ -1,0 +1,83 @@
+/*
+    -------------------------------------------------------------------------------
+
+    Theme Name:         Zeed
+    Theme URI:          http://www.zeed.com/
+    Description:        Zeed - A Creative Multipurpose ecommerce Theme
+    Version:            1.0.0
+    Author:             Echafiai Youssef
+    Author URI:         http://www.echafiai.com/
+    Tags:               Electronics, Cars, Fashion, Collectibles, Coupons and More
+    Text Domain:        Zeed
+    License:            GPL v2
+    License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+
+    -------------------------------------------------------------------------------
+
+*/
+/*
+    -------------------------------------------------------------------------------
+
+    * 01. Start GLOBAL CSS Style
+    * 02. Start Page Loader
+
+    -------------------------------------------------------------------------------
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  01 - Start GENERAL STYLING
+/*-----------------------------------------------------------------------------------*/
+
+* {
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', 'Open Sans',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body a {
+    transition: all 0.5s ease;
+    color: #404040;
+}
+
+img {
+    transition: all 0.5s ease;
+    object-fit: cover;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-moz-selection { 
+    color: #404040;
+    background: #fffaa3;
+}
+
+::selection {
+    color: #404040; 
+    background: #fffaa3;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  02 - Start Page Loader
+/*-----------------------------------------------------------------------------------*/
+
+#loader {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 9999;
+}

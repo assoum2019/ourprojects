@@ -1,0 +1,314 @@
+/*
+    -------------------------------------------------------------------------------
+
+    Theme Name:         Zeed
+    Theme URI:          http://www.zeed.com/
+    Description:        Zeed - A Creative Multipurpose ecommerce Theme
+    Version:            1.0.0
+    Author:             Echafiai Youssef
+    Author URI:         http://www.echafiai.com/
+    Tags:               Electronics, Cars, Fashion, Collectibles, Coupons and More
+    Text Domain:        Zeed
+    License:            GPL v2
+    License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+
+    -------------------------------------------------------------------------------
+
+*/
+/*
+    -------------------------------------------------------------------------------
+
+    * 01. Start Login Page
+    * 02. Start dashboard Page
+
+    -------------------------------------------------------------------------------
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  01 - Start Login Page
+/*-----------------------------------------------------------------------------------*/
+
+.cPanel-login {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.cPanel-login .col-cPanel-right {
+    background: white url(../cpanel-support/img/rkrishnamani.png);
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.cPanel-login .col-cPanel-left {
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 35px;
+    padding-right: 50px;
+}
+
+.cPanel-login h2 {
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.cPanel-login .col-cPanel-left form {
+    margin-top: 15px;
+}
+
+.cPanel-login .col-cPanel-left form label {
+    font-size: 15px;
+}
+
+.cPanel-login .col-cPanel-left form .text-muted {
+    color: #6c757d!important;
+    margin-top: 9px;
+    margin-bottom: -4px;
+}
+
+.cPanel-login .col-cPanel-left input {
+    border-radius: 0;
+}
+
+.cPanel-login .col-cPanel-left input:hover,
+.cPanel-login .col-cPanel-left input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #007c89;
+    outline: 0;
+    box-shadow: 0 0 0 0 !important;
+    border-width: 1.5px;
+}
+
+.cPanel-login .col-cPanel-left form .form-check {
+    margin-bottom: 18px;
+}
+
+.cPanel-login .col-cPanel-left form .form-check input#exampleCheck1 {
+    margin-top: 6px;
+}
+
+.form-check-label {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.cPanel-login .col-cPanel-left form button.btn {
+    background: #007c89;
+    color: white;
+    width: 100%;
+    border-radius: 0;
+}
+
+.cPanel-login .col-cPanel-left form button.btn:hover {
+    background: #007c89;
+    color: white;
+}
+
+.cPanel-login .col-cPanel-left .alert.alert-danger {
+    margin-top: 19px;
+}
+
+.cPanel-login .col-cPanel-left form .form-check label.form-check-label {
+    font-size: 14px;
+    width: 80%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  02 - Start dashboard Page
+/*-----------------------------------------------------------------------------------*/
+
+.navigation-left-menu {
+    position: relative;
+    width: 18.5%;
+    float: left;
+    background: white;
+    height: 100vh;
+    border-right: 2px solid #f2f7fb;
+}
+
+.navigation-left-menu .nav .list-nav li {
+    list-style: none;
+    margin-bottom: 17px;
+}
+
+.navigation-left-menu .nav .list-nav li .icon {
+    position: relative;
+    margin-right: 16px;
+    font-size: 26px;
+    color: #404040;
+    top: 3px;
+}
+
+.navigation-left-menu .nav .list-nav li a {
+    font-size: 17px;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.navigation-left-menu .nav .list-nav li a:hover,
+.navigation-left-menu .nav .list-nav li a:active,
+.navigation-left-menu .nav .list-nav li a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+.navigation-left-menu .nav {
+    margin-top: 100px;
+}
+
+.cPanel-dashboard {
+    position: relative;
+    width: 81.5%;
+    float: left;
+    background: #f2f7fa;
+    min-height: 100vh;
+}
+
+.cPanel-dashboard .header-nav {
+    background: white;
+}
+
+.settings-choice nav.navbar.navbar-expand-lg h5 {
+    display: inline;
+    margin-right: 14px;
+}
+
+.cPanel-dashboard .header-nav li.head-notifications {
+    background: #fff8e5;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-top: 11px;
+    margin-right: 11px;
+}
+
+.cPanel-dashboard .header-nav li.head-notifications i.icon {
+    position: relative;
+    left: 6px;
+    font-size: 18px;
+    color: #404040;
+}
+
+.cPanel-dashboard .header-nav img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.dashboard-det {
+    padding: 20px 9px;
+}
+
+.settings-choice nav.navbar.navbar-expand-lg {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.settings-choice select.dropdown-select {
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #404040;
+}
+
+.settings-choice select.dropdown-select option {
+    background: white;
+    margin: 20px;
+    overflow: hidden;
+    color: #404040;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.settings-choice form.form-searching input {
+    border: 0;
+    padding: 0 28px;
+    padding-left: 17px;
+}
+
+.settings-choice form.form-searching input:hover,
+.settings-choice form.form-searching input:active,
+.settings-choice form.form-searching input:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.settings-choice form.form-searching input::-webkit-input-placeholder {
+    font-size: 14px;
+    z-index: 99;
+}
+
+.settings-choice form.form-searching input:focus::-webkit-input-placeholder {
+    font-size: 14px;
+    z-index: 99;
+}
+
+.settings-choice .btn-outline-success {
+    background: #007c89;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    padding: 9px 20px;
+}
+
+.settings-choice ul.navbar-nav.mr-auto li.nav-item:first-child a {
+    padding-left: 0;
+}
+
+.settings-choice .btn-outline-success:hover,
+.settings-choice .btn-outline-success:active,
+.settings-choice .btn-outline-success:focus {
+    background: #007c89b3 !important;
+    color: white;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.dashboard-det .table {
+    color: #404040;
+    background: white;
+    margin-top: 15px;
+}
+
+.table td, .table th {
+    border-color: #eee;
+}
+
+.dashboard-det .table thead th,
+.dashboard-det table td, 
+.dashboard-det .table th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #eee;
+}
+
+.dashboard-det .table img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.dashboard-det .table td {
+    padding-bottom: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
