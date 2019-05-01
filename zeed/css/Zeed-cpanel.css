@@ -28,6 +28,22 @@
 /*  01 - Start Login Page
 /*-----------------------------------------------------------------------------------*/
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: #c1c1c1; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .cPanel-login {
     position: relative;
     height: 100vh;
@@ -123,7 +139,7 @@
 /*-----------------------------------------------------------------------------------*/
 
 .navigation-left-menu {
-    position: relative;
+    position: fixed;
     width: 18.5%;
     float: left;
     background: white;
@@ -164,7 +180,7 @@
 .cPanel-dashboard {
     position: relative;
     width: 81.5%;
-    float: left;
+    float: right;
     background: #f2f7fa;
     min-height: 100vh;
 }
@@ -202,9 +218,10 @@
 
 .dashboard-det {
     padding: 20px 9px;
+    height: 3000px;
 }
 
-.settings-choice nav.navbar.navbar-expand-lg {
+.navnopa {
     padding-left: 0;
     padding-right: 0;
 }
@@ -258,7 +275,7 @@
     padding: 9px 20px;
 }
 
-.settings-choice ul.navbar-nav.mr-auto li.nav-item:first-child a {
+.titleSectionCPanel {
     padding-left: 0;
 }
 
@@ -295,7 +312,106 @@
 
 .dashboard-det .table td {
     padding-bottom: 18px;
+    text-transform: capitalize;
 }
+
+.dashboard-det .table td span.locked {
+    color: #fd397a;
+}
+
+.dashboard-det .table td span.unlocked {
+    color: #0abb87;
+}
+
+.botoome a.nav-link {
+    margin-left: 11px;
+    border-radius: 2px;
+    padding-bottom: 4px;
+    padding-top: 5px;
+}
+
+.botoome li.nav-item:last-child a {
+    text-decoration: line-through;
+    border-radius: 0;
+}
+
+.botoome li.nav-item:hover a, .botoome li.nav-item:active a, .botoome li.nav-item:focus a {
+    background: #007c89;
+    color: white;
+    border-radius: 2px;
+}
+
+.table-productes {
+    background: white;
+    padding: 50px 20px;
+    padding-bottom: 56px;
+    border-top: 1px solid #eee;
+    padding-top: 25px;
+}
+
+.table-productes .in-states-productes {
+    float: right;
+    text-align: right;
+    margin-bottom: 13px;
+}
+
+.table-productes .in-states-productes p {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #404040;
+}
+
+.table-productes .table-infop-productes {
+    margin-top: 18px;
+}
+
+.table-productes .table-infop-productes h3 {
+    font-size: 24px;
+}
+
+.table-productes .table-infop-productes .meta-s p {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.table-productes .table-infop-productes .meta-s p span {
+    color: #404040;
+    font-size: 15px;
+}
+
+.table-productes .item-peod {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-top: 30px;
+}
+
+.table-productes .item-peod:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
